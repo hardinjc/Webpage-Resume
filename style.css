@@ -1,0 +1,65 @@
+
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+}
+
+/* Styling for the header section */
+.header {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+    background-color: darkblue;
+}
+.rheader {
+  display: flex;
+  gap: 12px;
+  margin: 16px 48px 16px 16px;
+}
+.lheader {
+    margin: 16px 16px 16px 48px;
+}
+.rheader, .lheader {
+    align-items: center;
+}
+
+h1, h7 {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Styling for the section1 section */
+
+.section1 {
+    display: flex;
+    background-color: darkblue;
+    justify-content: space-around;
+    padding: 40px 20px;
+}
+
+.right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec1img {
+    width: 375px;
+}
+h1 {
+    font-weight: bolder;
+    font-size: 40px;
+}
+.left {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   width: 450px;
+}
+button {
+    width: 61.21px;
+}
+/* Styling for section 2 */
