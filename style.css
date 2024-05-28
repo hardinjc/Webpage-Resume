@@ -59,7 +59,84 @@ h1 {
    justify-content: center;
    width: 450px;
 }
-button {
+.button1 {
     width: 61.21px;
+    margin-top: 10px;
 }
 /* Styling for section 2 */
+
+img {
+    width: 200px;
+    height: 200px;
+}
+.section2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section2left {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+.section2right {
+    display: flex;
+    gap: 75px;
+    padding: 50px;
+}
+.html, .css, .git, .github {
+    width: 200px;
+}
+/* Styling for section 3 */
+
+.section3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: grey;
+    padding: 40px;
+}
+.top, .bottom {
+
+    width: 400px;
+}
+.bottom {
+    text-align: right;
+}
+
+/* Styling for section 4 */
+.section4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bluebox {
+    background-color: darkblue;
+    width: 600px;
+    height: 100px;
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    border-radius: 10px;
+}
+h2, p {
+    margin: 0;
+    padding: 0;
+}
+.button4 {
+    background-color: Transparent;
+    border: 1px solid black;
+}
+
+/* Styling for footer */
+
+.footer {
+    text-align: center;
+    background-color: gray;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
